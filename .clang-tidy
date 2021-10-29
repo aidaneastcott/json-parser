@@ -1,0 +1,21 @@
+---
+Checks: '*,
+         -misc-no-recursion,
+         -modernize-use-trailing-return-type,
+         -readability-named-parameter,
+         -cppcoreguidelines-pro-bounds-array-to-pointer-decay,
+         -cppcoreguidelines-macro-usage,
+         -llvm-header-guard,
+         -google-runtime-int,
+         -hicpp-named-parameter,
+         -hicpp-no-array-decay,
+         -llvmlibc-restrict-system-libc-headers,
+         -llvmlibc-callee-namespace,
+         -llvmlibc-implementation-in-namespace,
+         -fuchsia-default-arguments-calls,
+         -fuchsia-overloaded-operator,
+         -fuchsia-trailing-return'
+WarningsAsErrors: '*'
+FormatStyle: file
+InheritParentConfig: true
+...
